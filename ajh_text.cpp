@@ -18,5 +18,8 @@ const int IGNORE = 4096;						// I use this when clearing the input buffer.
 
 int main( void )
 {
-
+	// Read the user's response.
+	//cin >> menuAnswer;
+	// Flush the input buffer.
+	cin.ignore( IGNORE, '\n' );
 }
